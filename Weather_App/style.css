@@ -1,0 +1,72 @@
+body{
+    background-color: hsla(231, 100%, 30%, 0.444);
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titleMain{
+    font-size: 4rem;
+    font-weight: bold;
+    color: hsl(0, 0%, 0%);
+    -webkit-text-stroke: 1.3px rgba(245, 245, 245, 0.504);
+    margin: 5px;
+    padding: 0;
+    align-self: center;
+}
+#b1{
+    margin-top: 0;
+    padding-top: 0;
+}
+.cityinput{
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: hsl(0, 0%, 35%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 30px;
+}
+.gen{
+    font-size: 1.5rem;
+    padding: 10px;
+    color: hsl(0, 0%, 85%);
+    background-color: hsl(0, 0%, 30%);
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.gen:hover{
+    transform: scale(1.04);
+}
+.gen:active{
+    transform: scale(0.99);
+}
+.Card{
+    /* border: solid 2px black; */
+    background: linear-gradient(145deg, hsl(240, 100%, 46%), white);
+    color: rgba(255, 255, 255, 0.725);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3), 
+    2px 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 10px;
+    height:auto;
+    width: auto;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+.citynameDis{
+    font-size: 3rem;
+}
+.Details{
+    font-size: 1.5rem;
+}
+.descDis{
+    font-size: 2rem;
+}

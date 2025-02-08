@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.column {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    margin-left: 5px;
+}
+.completed-red {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin: 2px 0;
+}
+.completed-green {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    margin: 2px 0;
+}
